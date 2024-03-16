@@ -1,0 +1,45 @@
+/* GetStarted.css */
+
+.get-started-container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.get-started-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.get-started-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.get-started-form label {
+    margin-bottom: 10px;
+}
+
+.get-started-form input[type="text"],
+.get-started-form input[type="password"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.get-started-form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.get-started-form button:hover {
+    background-color: #45a049;
+}

@@ -1,0 +1,32 @@
+.task-list {
+    margin-top: 20px;
+}
+
+.task-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.task-list th,
+.task-list td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+.task-list th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.task-list tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.task-list tr:hover {
+    background-color: #f0f0f0;
+}
+
+.task-list input[type="checkbox"] {
+    cursor: pointer;
+}

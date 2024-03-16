@@ -1,0 +1,28 @@
+/* Style for Get Some Motivation Page */
+
+.motivation-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.motivation-page h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.motivation-page select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.motivation-page .motivational-quote {
+    margin-top: 20px;
+}
+
+.motivation-page .motivational-quote p {
+    font-size: 16px;
+}
